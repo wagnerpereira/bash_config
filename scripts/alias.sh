@@ -4,6 +4,6 @@ alias psgrep="ps aux | egrep -v egrep | egrep"
 alias preview="open -a Preview"
 
 # alias to open repos
-for repo in $(ls ~/src); do
+for repo in $(ls ~/projetos); do
   alias "r-$repo"="repo open $repo"
 done
